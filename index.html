@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+</head>
+<body>
+    <button id="boton_ingresar">Informacion</button>
+    <button id="boton_informacion">Información con www</button>
+    <button id="boton_redirect">Redirect</button>
+
+    <script>
+        document.getElementById("boton_ingresar").addEventListener("click", function() {
+            window.location.href = "https://www.volve.com.uy/informacion";
+        });
+
+        document.getElementById("boton_informacion").addEventListener("click", function() {
+           window.location.href = "https://volve.com.uy/informacion";
+        });
+dow.location.href = "https://redirect.volve.com.uy/deeplinks/?link=https://www.volve.com.uy/restore";
+        });
+
+        document.getElementById("boton_redirect").addEventListener("click", function() {
+            window.location.href = "https://redirect.volve.com.uy/deeplinks/?link=https://www.volve.com.uy/restore"; 
+        });
+    </script>
+</body>
+</html>
